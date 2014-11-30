@@ -1,21 +1,37 @@
 <html>
 <head>
 <title>Hanah Changd</title>
+<script src="http://code.jquery.com/jquery-1.11.0.min.js">
+</script>
+<script src="script.js"></script>
 <link href='http://fonts.googleapis.com/css?family=Dosis|Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
 
 </head>
 <body>
 	<div id="navbar">
-		<div id="about"><a href="About.html">About</a></div>
+		<div id="home"><a href="index.html">Home</a></div>
+		<div id="about"><a href="about.html">About</a></div>
 		<div id="blog"><a href="blog.html">Blog<a></div>
 		<div id="photos"><a href="photos.html">Photos</a></div>
 		<div id="contact"><a href="contact.html">Contact</a></div>
 	</div>
-	<div id="name">Hanah Chang</div>
+	<div class="name">
+		<div id="name2">hanah chang</div>
+		<div id="job"><i>actress. writer. (soon to be) international superstar.</i></div>
+	</div>
+
 	<div id='background'>
   <img src='assets/img/18.jpg'/>
 	</div>
 </div>
 </body>
+
+<script> 
+
+$("#about"/).click(function(hi)) {
+	$("#about").show(1000)
+}
+</script>
 </html>
+
