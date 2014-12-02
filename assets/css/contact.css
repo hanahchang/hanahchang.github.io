@@ -1,8 +1,10 @@
 body {
         
 font-family: 'Dosis', sans-serif;
-font-weight: 10;
 margin:0;
+background-color: black;
+color:white;
+line-height:1.5;
 
 }
 
@@ -11,27 +13,24 @@ margin:0;
     width: 100%;
     position:fixed;
     z-index: -999;
-    opacity:.8;
+    opacity:0.6;
+    top: 0;
+    left: 0;
 }
 
 div#navbar {
-    float: left;
-    position:  absolute;
-    margin-left: 50px;
     margin-top:10px;
-
-}
-
-div#navbar {
-    display: inline-block;
-    margin-right: 20px;
     font-size: 25px;
     position:fixed;
+    width: 100%;
+    top: 0;
+    left:0;
+    color:white;
 }
 
 div#home {
     display: inline-block;
-    margin-right: 20px;
+    margin: 0 20px;
 }
 #home:hover {
     color:gray;
@@ -39,7 +38,7 @@ div#home {
 
 div#about {
     display: inline-block;
-    margin-right: 20px;
+    margin: 0 20px;
 }
 #about:hover {
     color:gray;
@@ -47,7 +46,7 @@ div#about {
 
 div#blog {
     display: inline-block;
-    margin-right: 20px;
+    margin: 0 20px;
 }
 
 #blog:hover {
@@ -56,7 +55,7 @@ color:gray;
 
 div#photos {
     display: inline-block;
-    margin-right: 20px;
+    margin: 0 20px;
     cursor:pointer;
 
 }
@@ -65,14 +64,14 @@ color:gray;
 }
 div#contact {
     display: inline-block;
-    margin-right: 20px;
+    margin: 0 20px;
 }#contact:hover {
     color: gray;
 }
 
 a{
     text-decoration: none;
-    color: black;
+   color:white;
 }
 a:hover{
     color:gray;
@@ -84,12 +83,10 @@ img {
     opacity:.8;
 }
 .info {
-    float: right;
-    margin-right: 750;
-    margin-top: 120;
-    font-size: 30;
+    margin-top: 120px;
+    font-size: 30px;
     font-weight: 400;
-    padding: 10 10 10 10;
+    margin-left: 150px;
 }
 
 div#name {

@@ -3,7 +3,9 @@ body {
 font-family: 'Dosis', sans-serif;
 font-weight: 10;
 margin:0;
-
+background-color:black;
+color:white;
+line-height: 1.5;
 }
 
 #background {
@@ -11,26 +13,23 @@ margin:0;
     width: 100%;
     position:fixed;
     z-index: -999;
+    top: 0;
+    left: 0;
+    opacity:0.6;
 }
 
 div#navbar {
-    float: left;
-    position:  absolute;
-    margin-left: 50px;
     margin-top:10px;
-
-}
-
-div#navbar {
-    display: inline-block;
-    margin-right: 20px;
     font-size: 25px;
     position:fixed;
+    width: 100%;
+    top: 0;
+    left:0;
 }
 
 div#home {
     display: inline-block;
-    margin-right: 20px;
+    margin: 0 20px;
 }
 #home:hover {
     color:gray;
@@ -38,7 +37,7 @@ div#home {
 
 div#about {
     display: inline-block;
-    margin-right: 20px;
+    margin: 0px 20px;
 }
 #about:hover {
     color:gray;
@@ -46,7 +45,7 @@ div#about {
 
 div#blog {
     display: inline-block;
-    margin-right: 20px;
+    margin: 0px 20px;
 }
 
 #blog:hover {
@@ -55,7 +54,7 @@ color:gray;
 
 div#photos {
     display: inline-block;
-    margin-right: 20px;
+    margin: 0px 20px;
     cursor:pointer;
 
 }
@@ -64,26 +63,22 @@ color:gray;
 }
 div#contact {
     display: inline-block;
-    margin-right: 20px;
-}#contact:hover {
+    margin: 0px 20px;
+}
+#contact:hover {
     color: gray;
 }
 div#name {
-    display: block;
-    float: right;
-    width: 1280;
-    /* margin-right: 480px; */
     font-size: 50px;
 
-    position: absolute;
-    /* position: fixed; */
-    /* margin-left: 540px; */
-    margin-top: 550;
+    padding: 0px 20px;
+    padding-top: 20px;
+    
 }
 
 a{
     text-decoration: none;
-    color: black;
+    color: inherit;
 }
 a:hover{
     color:gray;
@@ -96,7 +91,27 @@ img {
 }
 
 div#bio {
-    position: absolute;
-    margin-top: 50;
-    padding: 30;
+    padding: 0px 20px;
+    width: 800px;
+    /* text-align: center */
+    margin: auto;
+}
+
+#button {
+    display: inline-block;
+    padding: 5px 20px;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+#secondparagraph {
+    display:none;
+    }
+
+#container {
+    margin-top: 42px;
+    text-align: center;
+    padding:30px;
 }
