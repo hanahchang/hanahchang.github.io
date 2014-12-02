@@ -47,6 +47,7 @@ div#about {
 div#blog {
     display: inline-block;
     margin: 0 20px;
+    cursor:pointer;
 }
 
 #blog:hover {
